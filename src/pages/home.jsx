@@ -27,7 +27,7 @@ const Capture = () => {
         </div>
       </div>
 
-      <div className="page2 page">
+      {/* <div className="page2 page">
         <h1 className="header-text">
           Beyond Traditional Chains: <br />
           <span className="gradient-text"> Your AI-Powered Defi Network</span>
@@ -71,7 +71,7 @@ const Capture = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="page3 page">
         <h1 className="header-text">
@@ -84,7 +84,6 @@ const Capture = () => {
 
         <div className="page3__cards-container">
           <div className="page3__card">
-            📚
             <h3>Collaborative Intelligence</h3>
             <p className="card-text--small">
               Encourage fluid interaction among validators, liquidity providers,
@@ -97,7 +96,6 @@ const Capture = () => {
             </div>
           </div>
           <div className="page3__card">
-            📝
             <h3>Precision at Scale</h3>
             <p className="card-text--small">
               Combine advanced ML and zero-knowledge proofs to execute every
@@ -110,7 +108,6 @@ const Capture = () => {
             </div>{" "}
           </div>
           <div className="page3__card">
-            📝
             <h3>Adaptive Analytics</h3>
             <p className="card-text--small">
               Our AI validators continually learn from on-chain data, slashing
@@ -122,7 +119,6 @@ const Capture = () => {
             </div>{" "}
           </div>
           <div className="page3__card">
-            📝
             <h3>Frictionless Onboarding</h3>
             <p className="card-text--small">
               Mind Circuit’s architecture fits effortlessly with top DeFi
@@ -135,7 +131,6 @@ const Capture = () => {
             </div>{" "}
           </div>
           <div className="page3__card">
-            📝
             <h3>Conversational Control</h3>
             <p className="card-text--small">
               Query our AI engine for market intel, contract scans, or liquidity
@@ -148,7 +143,6 @@ const Capture = () => {
             </div>{" "}
           </div>
           <div className="page3__card">
-            📝
             <h3>Ever-Evolving Assistant</h3>
             <p className="card-text--small">
               Think of Mind Circuit as your personal on-chain guide,
@@ -247,7 +241,6 @@ const Capture = () => {
             <button className="page6--btn trans">View All</button>
           </div>
           <div className="page6__card">
-            📝
             <h3>Current Products</h3>
             <p className="card-text--small">
               Contract Monitor – Automatically detect suspicious code and
@@ -268,25 +261,26 @@ const Capture = () => {
           <div className="page4--top top">
             <div className="img--container">
               {" "}
-              <img src="sui.jpg" alt="" />
+              <div className="img-text">
+                <h1>Cyphur</h1>
+                <h2>
+                  Move Powered, PoA Ready: <br />
+                  Unified Defi Across Cyphur and Beyond
+                </h2>
+                <p>A Custom Mind Circuit Implementation</p>
+              </div>
+              {/* <img src="suiii.jpg" alt="" /> */}
             </div>
 
             <div className="top--text">
               <h1 className="header-text">
                 Custom
-                <span className="gradient-text"> Sui Interoperability</span>
+                <span className="gradient-text"> Cyphur Interoperability</span>
               </h1>
               <p className="card-text--small">
-                Mind Circuit is building a custom interoperability layer that
-                bridges the Sui (Move-based) environment with our Cosmos-based
-                PoA framework. This allows Sui developers to tap into Mind
-                Circuit’s AI agents, aggregator endpoints, and on-chain
-                intelligence while maintaining full compatibility with Sui’s
-                native Move contracts. In practice, Sui smart contracts and apps
-                can invoke Mind Circuit’s PoA validation or data services,
-                enabling cross-chain orchestration, AI-powered insights, and
-                seamless DeFi workflows that combine both networks’
-                capabilities.
+                Cyphur is at the forefront of developing an advanced,
+                open-source AI agent designed to transform your Web3 experience
+                with powerful, data-driven insights.
               </p>
             </div>
           </div>
