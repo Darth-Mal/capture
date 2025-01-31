@@ -11,37 +11,19 @@ const Capture = () => {
           src="photo_2025-01-27_00-41-53.jpg"
           alt=""
         />
-        <h3>Capture</h3>
+        <h3>Cyphur</h3>
       </div>
       <div className="heropage">
-        <video
-          className="tech-video"
-          autoPlay
-          muted
-          loop
-          playsInline
-          style={{
-            objectFit: "cover",
-            position: "absolute",
-          }}
-        >
+        <video className="tech-video" autoPlay muted loop playsInline>
           <source src="144257-784302968_small.mp4" type="video/mp4" />
         </video>
         <div className="heropage__text">
-          <h1 className="header-text">
-            Autonomous Agents Unleashed With Mind Circuit’s{" "}
-            <span className="gradient-text"> Federated Learning in TEEs</span>
-          </h1>
-          <p>
-            Harness cross-chain data, TEE-secured federated learning, and
-            ML-driven automation to power the next generation of AI agent-led
-            innovation and breakthroughs.
-          </p>
-        </div>
+          <h1 className="header-text gradient-text main__header">Cyphur</h1>
 
-        <div className="heropage__btns">
-          <button className="solid">Get Started</button>{" "}
-          <button className="trans">Litepaper</button>
+          <h1>
+            AI-driven solutions for blockchain, combining decentralized
+            innovation with data insights to shape the future of Web3.{" "}
+          </h1>
         </div>
       </div>
 
@@ -193,13 +175,14 @@ const Capture = () => {
           <div className="page4--top top">
             <div className="top--text">
               <h1 className="header-text">
-                Fine-Tune Your
-                <span className="gradient-text"> Setup:</span>
+                <span className="gradient-text">
+                  {" "}
+                  Data Insights on Projects
+                </span>
               </h1>
               <p className="card-text--small">
-                Select your staking configuration, link your preferred wallet,
-                and designate your operator alliances—Mind Circuit’s intuitive
-                onboarding lets you go from zero to on-chain in minutes.
+                Providing actionable insights on blockchain projects, helping
+                users make informed decisions
               </p>
             </div>
             <img src="jsj.jpg" alt="" />
@@ -213,14 +196,11 @@ const Capture = () => {
 
             <div className="top--text">
               <h1 className="header-text">
-                Accelerate With
-                <span className="gradient-text"> AI-Powered POA:</span>
+                <span className="gradient-text"> Wallet tracking</span>
               </h1>
               <p className="card-text--small">
-                Our autonomous PoA framework keeps validators nimble and
-                adaptive, sustaining top performance through slashing
-                safeguards, cryptographic layers, and open governance—so you can
-                focus on scaling, not operational hurdles.
+                Advanced AI tracks wallet activity to analyze market trends and
+                identify key players in the ecosystem
               </p>
             </div>
           </div>
