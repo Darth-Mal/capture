@@ -243,7 +243,6 @@ const Capture = () => {
 
         <div className="page6__cards-container">
           <div className="page6__card">
-            📚
             <h3>Integration</h3>
             <p className="card-text--small">
               Effortlessly link Mind Circuit with top DEXs, multi-chain
