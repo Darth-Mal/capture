@@ -27,14 +27,14 @@ const Capture = () => {
             innovation with data insights to shape the future of Web3.{" "}
           </h1>
         </div>
-        <Link className="no-underline" to="https://x.com/intelure">
+        <Link className="no-underline" to="https://x.com/Cyphur">
           <div className="twitter cards__header">
             <FontAwesomeIcon
               icon={faSquareXTwitter}
               className="twittericon"
               style={{ fontSize: "1em", color: "#ffffff" }} // Customize size and color
             />
-            @intelure
+            @cyphurai
           </div>
         </Link>
       </div>
