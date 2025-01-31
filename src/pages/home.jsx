@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Capture = () => {
   return (
@@ -25,6 +27,16 @@ const Capture = () => {
             innovation with data insights to shape the future of Web3.{" "}
           </h1>
         </div>
+        <Link className="no-underline" to="https://x.com/intelure">
+          <div className="twitter cards__header">
+            <FontAwesomeIcon
+              icon={faSquareXTwitter}
+              className="twittericon"
+              style={{ fontSize: "1em", color: "#ffffff" }} // Customize size and color
+            />
+            @intelure
+          </div>
+        </Link>
       </div>
 
       {/* <div className="page2 page">

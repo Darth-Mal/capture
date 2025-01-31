@@ -284,3 +284,28 @@ button:hover {
     background-position: 0% 50%;
   }
 }
+
+.no-underline {
+  text-decoration: none;
+}
+
+.twitter {
+  display: flex;
+  gap: 5px;
+  width: auto;
+  padding: 8px;
+  cursor: pointer;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 24px;
+  background: rgba(189, 82, 121, 0.2);
+  border: 1px solid #bd5c7f;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.twitter:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
